@@ -9,16 +9,16 @@ import LoginPage from './src/Components/login';
 
 const Route = createNativeStackNavigator();
 
-export default function App() {
+export default function App(){
   return (
     <NavigationContainer>
       <Route.Navigator>
+        <Route.Screen name='Login' component={LoginPage} options={{ headerShown: false }}/>
         <Route.Screen 
         name='Home' 
         component={HomeScreen}
-        // options={{ headerShown: false }}
+        options={{ headerShown: false }}
         />
-        <Route.Screen name='Login' component={LoginPage}/>
       </Route.Navigator>
     </NavigationContainer>
   );

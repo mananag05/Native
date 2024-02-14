@@ -1,0 +1,33 @@
+reactnative/node_modules
+reactnative/package-lock.json
+reactnative/.expo/
+reactnative/dist/
+reactnative/web-build/
+
+# Native
+reactnative/*.orig.*
+reactnative/*.p8
+reactnative/*.jks
+reactnative/*.p12
+reactnative/*.key
+reactnative/*.mobileprovision
+
+# Metro
+reactnative/.metro-health-check*
+
+# debug
+reactnative/npm-debug.*
+reactnative/yarn-debug.*
+reactnative/yarn-error.*
+
+# macOS
+reactnative/.DS_Store
+reactnative/*.pem
+
+# local env files
+reactnative/.env*.local
+
+# typescript
+reactnative/*.tsbuildinfo
+
+Server/node_modules
